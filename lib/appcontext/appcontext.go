@@ -1,7 +1,6 @@
 package appcontext
 
 import (
-	"log"
 	// stdlib
 	"encoding/json"
 	"net/http"
@@ -70,5 +69,5 @@ func (c *Context) StartHTTPListener() {
 
 	c.Log.Info("HTTP server started at http://" + c.Cfg.HTTPListener.Host + ":" + c.Cfg.HTTPListener.Port)
 	err := http.ListenAndServe(c.Cfg.HTTPListener.Host+":"+c.Cfg.HTTPListener.Port, c.HTTPServerMux)
-	log.Fatalln(err)
+	c.Log.Fatalln(err)
 }

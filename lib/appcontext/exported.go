@@ -1,7 +1,7 @@
 package appcontext
 
 var (
-	a *Context
+	с *Context
 )
 
 // New is a Context creation function
