@@ -1,0 +1,7 @@
+sender:
+    host: "localhost"
+    port: "8000"
+    signature: "your-awesome-signature"
+receiver:
+    host: "localhost"
+    port: "3000"
