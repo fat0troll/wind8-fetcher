@@ -2,7 +2,7 @@ package fetchrequest
 
 import (
 	// local
-	"lab.pztrn.name/fat0troll/wind8_fetcher/lib/appcontext"
+	"source.wtfteam.pro/wind8/wind8_fetcher/lib/appcontext"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	// 3rd-party
 	"gopkg.in/yaml.v2"
-	"lab.pztrn.name/golibs/mogrus"
+	"source.pztrn.name/golibs/mogrus"
 )
 
 // HTTPServerConfiguration handles HTTP server configuration in config file

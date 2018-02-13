@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 	// 3rd-party
-	"lab.pztrn.name/golibs/flagger"
-	"lab.pztrn.name/golibs/mogrus"
+	"source.pztrn.name/golibs/flagger"
+	"source.pztrn.name/golibs/mogrus"
 	// local
-	"lab.pztrn.name/fat0troll/wind8_fetcher/lib/config"
+	"source.wtfteam.pro/wind8/wind8_fetcher/lib/config"
 )
 
 // Context is an application context struct
@@ -25,7 +25,7 @@ func (c *Context) Init() {
 	l := mogrus.New()
 	l.Initialize()
 	c.Log = l.CreateLogger("stdout")
-	c.Log.CreateOutput("stdout", os.Stdout, true)
+	c.Log.CreateOutput("stdout", os.Stdout, true, "debug")
 
 	c.Cfg = config.New()
 

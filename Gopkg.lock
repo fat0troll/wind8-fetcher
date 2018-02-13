@@ -4,48 +4,54 @@
 [[projects]]
   name = "github.com/sirupsen/logrus"
   packages = ["."]
-  revision = "f006c2ac4710855cf0f916dd6b77acf6b048dc6e"
-  version = "v1.0.3"
+  revision = "d682213848ed68c0a260ca37d6dd5ace8423f5ba"
+  version = "v1.0.4"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
-  revision = "2509b142fb2b797aa7587dad548f113b2c0f20ce"
+  revision = "3a6c3ce65c4f0844ac396b02aebda1496fd2ac9d"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["html","html/atom"]
-  revision = "7b572d500b0702f1ea30a47083ce2e1e5c61edba"
+  packages = [
+    "html",
+    "html/atom"
+  ]
+  revision = "f5dfe339be1d06f81b22525fe34671ee7d2c8904"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
-  packages = ["unix","windows"]
-  revision = "164713f0dfcec4e80be8b53e1f0811f5f0d84578"
+  packages = [
+    "unix",
+    "windows"
+  ]
+  revision = "37707fdb30a5b38865cfb95e5aab41707daec7fd"
 
 [[projects]]
   branch = "v2"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
-  revision = "eb3733d160e74a9c7e442f435eb3bea458e1d19f"
+  revision = "d670f9405373e636a5a2765eea47fac0c9bc91a4"
 
 [[projects]]
   branch = "master"
-  name = "lab.pztrn.name/golibs/flagger"
+  name = "source.pztrn.name/golibs/flagger"
   packages = ["."]
-  revision = "b1abee64b9076d189411e666a4c141176bc007f7"
+  revision = "c9b4726e1787adb01126cdf9a7932e2bccbb51a7"
 
 [[projects]]
   branch = "master"
-  name = "lab.pztrn.name/golibs/mogrus"
+  name = "source.pztrn.name/golibs/mogrus"
   packages = ["."]
-  revision = "bdf5f86147cf30852a0e7d03613ca71f6851e747"
+  revision = "2e3a9d38c8e4b0036f714f88ef0fe9fc14b4c6b8"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "0168622020563ff2d9261221f045328fa18a0961e7a613a5a5a4a212c24f2b51"
+  inputs-digest = "d71dfdedcb7e98a5a710ecf4ae73a0adfbea0a030f8119908bc141b91d44a17e"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -2,8 +2,8 @@ package main
 
 import (
 	// local
-	"lab.pztrn.name/fat0troll/wind8_fetcher/api"
-	"lab.pztrn.name/fat0troll/wind8_fetcher/lib/appcontext"
+	"source.wtfteam.pro/wind8/wind8_fetcher/api"
+	"source.wtfteam.pro/wind8/wind8_fetcher/lib/appcontext"
 )
 
 func main() {

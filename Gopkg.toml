@@ -1,4 +1,3 @@
-
 # Gopkg.toml example
 #
 # Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
@@ -17,9 +16,18 @@
 #   source = "github.com/myfork/project2"
 #
 # [[override]]
-#  name = "github.com/x/y"
-#  version = "2.4.0"
+#   name = "github.com/x/y"
+#   version = "2.4.0"
+#
+# [prune]
+#   non-go = false
+#   go-tests = true
+#   unused-packages = true
 
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/net"
 
 [[constraint]]
   branch = "v2"
@@ -27,8 +35,12 @@
 
 [[constraint]]
   branch = "master"
-  name = "lab.pztrn.name/golibs/mogrus"
+  name = "source.pztrn.name/golibs/flagger"
 
 [[constraint]]
   branch = "master"
-  name = "lab.pztrn.name/golibs/flagger"
+  name = "source.pztrn.name/golibs/mogrus"
+
+[prune]
+  go-tests = true
+  unused-packages = true
